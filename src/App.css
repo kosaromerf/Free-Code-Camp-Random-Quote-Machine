@@ -1,7 +1,9 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-.full {
-    height: 100vh
+#full {
+    height: 100vh;
+    width: 100vw;
+
 }
 
 #quote-box {
@@ -14,4 +16,8 @@
 
 #author {
     align-self: flex-end;
+}
+
+#text {
+    font-size: 1.3rem;
 }
